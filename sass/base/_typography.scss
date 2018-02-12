@@ -15,16 +15,16 @@ body {
         
     &--main {
         display: block;
-        font-size: 6rem;
+        font-size: 4rem;
         font-weight: 400;
-        letter-spacing: 3.5rem;
+        letter-spacing: 1rem;
 
         animation-name: moveInLeft;
         animation-duration: 1s;
         animation-timing-function: ease-out;
         
         @include respond(phone) {
-            letter-spacing: 1rem;
+            letter-spacing: 0.5rem;
             font-size: 5rem;
         }
     }

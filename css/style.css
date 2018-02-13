@@ -131,7 +131,6 @@ body {
     .heading-secondary {
       font-size: 2.5rem; } }
   .heading-secondary:hover {
-    transform: skewY(2deg) skewX(15deg) scale(1, 1);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
 
 .heading-tertiary {
@@ -684,7 +683,7 @@ body {
 
 .header {
   height: 85vh;
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url("../img/header.jpg");
+  background-image: linear-gradient(to right bottom, rgba(51, 51, 51, 0.8), rgba(153, 153, 153, 0.8)), url("../img/header.jpg");
   background-size: cover;
   background-position: top;
   position: relative; }
@@ -944,7 +943,7 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url("../img/nat-4.jpg");
+  background-image: linear-gradient(to right bottom, rgba(51, 51, 51, 0.8), rgba(153, 153, 153, 0.8)), url("../img/nat-4.jpg");
   background-size: cover;
   margin-top: -10rem;
   transform: skewY(-7deg); }
@@ -971,7 +970,7 @@ body {
 
 .section-book {
   padding: 15rem 0;
-  background-image: linear-gradient(to right bottom, #7ed56f, #28b485); }
+  background-image: linear-gradient(to right bottom, #333, #999); }
   @media only screen and (max-width: 56.25em) {
     .section-book {
       padding: 10rem 0; } }

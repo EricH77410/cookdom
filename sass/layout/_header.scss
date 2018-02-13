@@ -1,9 +1,11 @@
 .header {
+    // $color-primary-light
+    // $color-grey-dark-2
     height: 85vh;
     background-image: linear-gradient(
         to right bottom, 
-        rgba($color-primary-light, 0.8),
-        rgba($color-primary-dark, 0.8)),
+        rgba($color-grey-dark-3, 0.8), 
+        rgba($color-grey-dark-2, 0.8)),
     url('../img/header.jpg');
     background-size: cover;
     background-position: top;

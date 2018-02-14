@@ -48,11 +48,12 @@ body {
     text-transform: uppercase;
     font-weight: 700;
     display: inline-block;
-    background-image: linear-gradient(to right, $color-primary-light,$color-primary-dark);
+    //background-image: linear-gradient(to right, $color-primary-light,$color-primary-dark);
     -webkit-background-clip: text; //pour passer le text en background
-    color: transparent;
+    color: $color-white;//transparent;
     letter-spacing: 2px;
     transition: all .2s;
+    text-shadow: 2px 2px 1px rgba($color-black, 0.8);
     
     @include respond(tab-port) {
         font-size: 3rem;
